@@ -10,14 +10,18 @@ int main() {
 
     char letra[8];
 
-    fscanf(file,"%s",letra);
+    
 
+    while (fscanf(file,"%s",letra) != EOF) {
+        printf("%s ",letra);
+
+    }
 
     fclose(file);
 
 
 
-    printf("----%s",letra);
+    // printf("----%s",letra);
 
 
     return 0;
