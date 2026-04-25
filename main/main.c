@@ -18,6 +18,7 @@ int main() {
 
 
     printf("----%s",letra);
+    printf("hola");
 
 
     return 0;
